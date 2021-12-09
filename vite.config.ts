@@ -25,7 +25,7 @@ export default defineConfig(({ command, mode }) => {
     build: {
       polyfillDynamicImport: false,
       cssCodeSplit: false,
-      minify: isProduction,
+      minify: false,
     },
     server: {
       host:true

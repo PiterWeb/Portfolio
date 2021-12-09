@@ -4,3 +4,5 @@
 </script>
 
 <Router {routes} />
+
+<!-- <style windi:preflights:global windi:safelist:global></style> -->
