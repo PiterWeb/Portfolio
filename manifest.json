@@ -1,0 +1,22 @@
+{
+    "name": "PiterDev",
+    "theme_color": "#e5e7eb",
+    "background_color": "#e5e7eb",
+    "display": "minimal-ui",
+    "scope": "/",
+    "start_url": "/",
+    "icons":
+    [
+        {
+            "src": "/public/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+          "src": "/public/icon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+      ],
+    "prefer_related_applications": false
+  }
