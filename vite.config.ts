@@ -23,9 +23,10 @@ export default defineConfig(({ command, mode }) => {
   const isProduction = mode === "production";
   return {
     build: {
-      cssCodeSplit: false,
       minify: false,
-      
+      manifest: true,
+      extractCSS: true,
+      outDir: resolve(__dirname, "../dist"),
     },
     server: {
       host:true
@@ -45,7 +46,7 @@ export default defineConfig(({ command, mode }) => {
       windiCSS({
         //@ts-ignore
         verbose: true,
-        transformCSS: false,
+        transformCSS: 'post',
         silent: false,
         debug: true,
         config: "tailwind.config.js", // tailwind config file path (optional)
