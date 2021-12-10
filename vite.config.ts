@@ -23,9 +23,9 @@ export default defineConfig(({ command, mode }) => {
   const isProduction = mode === "production";
   return {
     build: {
-      polyfillDynamicImport: false,
-      cssCodeSplit: false,
+      cssCodeSplit: true,
       minify: false,
+      
     },
     server: {
       host:true
