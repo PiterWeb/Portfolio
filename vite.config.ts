@@ -45,6 +45,7 @@ export default defineConfig(({ command, mode }) => {
       windiCSS({
         //@ts-ignore
         verbose: true,
+        transformCSS: 'pre',
         silent: false,
         debug: true,
         config: "tailwind.config.js", // tailwind config file path (optional)
