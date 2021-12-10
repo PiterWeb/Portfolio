@@ -29,7 +29,6 @@
     "svelte": "^3.35.0",
     "svelte-check": "^1.2.5",
     "svelte-preprocess": "^4.6.9",
-    "svelte-windicss-preprocess": "^4.2.4",
     "tslib": "^2.1.0",
     "vite": "^2.0.5",
     "vite-plugin-windicss": "^0.6.11"
@@ -43,5 +42,8 @@
     "plugins": {
       "routify-plugin-frontmatter": {}
     }
+  },
+  "dependencies": {
+    "windicss": "^3.2.1"
   }
 }

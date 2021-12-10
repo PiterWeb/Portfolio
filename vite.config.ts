@@ -23,7 +23,7 @@ export default defineConfig(({ command, mode }) => {
   const isProduction = mode === "production";
   return {
     build: {
-      cssCodeSplit: true,
+      cssCodeSplit: false,
       minify: false,
       
     },
@@ -45,7 +45,7 @@ export default defineConfig(({ command, mode }) => {
       windiCSS({
         //@ts-ignore
         verbose: true,
-        transformCSS: 'pre',
+        transformCSS: false,
         silent: false,
         debug: true,
         config: "tailwind.config.js", // tailwind config file path (optional)
