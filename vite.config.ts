@@ -24,9 +24,6 @@ export default defineConfig(({ command, mode }) => {
   return {
     build: {
       minify: false,
-      manifest: true,
-      extractCSS: true,
-      outDir: resolve(__dirname, "../dist"),
     },
     server: {
       host:true
@@ -46,14 +43,15 @@ export default defineConfig(({ command, mode }) => {
       windiCSS({
         //@ts-ignore
         verbose: true,
-        transformCSS: 'post',
         silent: false,
         debug: true,
-        config: "tailwind.config.js", // tailwind config file path (optional)
+        transformCSS: 'pre',
+        config: "tailwind.config.ts", // tailwind config file path (optional)
         compile: false, // false: interpretation mode; true: compilation mode
         prefix: "windi-", // set compilation mode style prefix
         globalPreflight: true, // set preflight style is global or scoped
         globalUtility: true, // set utility style is global or scoped
+        globalVariables: true, // set variables style is global or scoped
       }),
       svelte({
         //@ts-ignore
