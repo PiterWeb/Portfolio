@@ -2,7 +2,7 @@
     import Project from "../components/Project.svelte";
     import Section from "../components/Section.svelte";
 
-    let projects = [{imgSrc: 'https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80' , title:'Hello' , body:'Body Example' , url:''}, {} , {} , {}]
+    let projects = [{title:'Piter Note App' , body:'Web simple individual and colaboration notes built with: EJS templates , Expressjs and Firebase Realtime Database' , imgSrc: 'PiterNoteApp.gif'} , {title:'Cloud File Home APP' , body:'Android APP built in JS with Svelte and Capacitor' , imgSrc: 'cfhapp.gif'} , {title: 'Cloud File Home Server' , body:'Expressjs Server to handle the requests for file system on Cloud File Home APP' , imgSrc: 'cfhserver.gif'}];
 
 </script>
 
