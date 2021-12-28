@@ -42,5 +42,8 @@
     "plugins": {
       "routify-plugin-frontmatter": {}
     }
+  },
+  "dependencies": {
+    "windicss": "^3.4.1"
   }
 }
