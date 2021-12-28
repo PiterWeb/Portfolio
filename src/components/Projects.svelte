@@ -2,7 +2,7 @@
     import Project from "../components/Project.svelte";
     import Section from "../components/Section.svelte";
 
-    let projects = [{title:'Piter Note App' , body:'Web simple individual and colaboration notes built with: EJS templates , Expressjs and Firebase Realtime Database' , imgSrc: 'public/PiterNoteApp.png' , url:'https://github.com/PiterWeb/PiterNoteApp'} , {title:'Cloud File Home APP' , body:'Android APP built in JS with Svelte and Capacitor' , imgSrc: 'public/cfhapp.png' , url:'https://github.com/PiterWeb/Cloud-File-Home-APP'} , {title: 'Cloud File Home Server' , body:'Expressjs Server to handle the requests for file system on Cloud File Home APP' , imgSrc: 'public/cfhserver.png' , url:'https://github.com/PiterWeb/Cloud-File-Home-Server'}];
+    let projects = [{title:'Piter Note App' , body:'Web simple individual and colaboration notes built with: EJS templates , Expressjs and Firebase Realtime Database' , imgSrc: '/PiterNoteApp.png' , url:'https://github.com/PiterWeb/PiterNoteApp'} , {title:'Cloud File Home APP' , body:'Android APP built in JS with Svelte and Capacitor' , imgSrc: '/cfhapp.png' , url:'https://github.com/PiterWeb/Cloud-File-Home-APP'} , {title: 'Cloud File Home Server' , body:'Expressjs Server to handle the requests for file system on Cloud File Home APP' , imgSrc: 'cfhserver.png' , url:'https://github.com/PiterWeb/Cloud-File-Home-Server'}];
 
 </script>
 
